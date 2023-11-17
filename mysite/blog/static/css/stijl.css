@@ -2,7 +2,7 @@ body {
     background-color: darkred;
 }
 
-.header {
+header {
     padding: 50px;
     padding-left: 75px;
     text-align: left;
@@ -37,7 +37,7 @@ article {
         width: 100%;
     }
 
-    .header {
+    header {
         padding: 25px;
         padding-left: 30px;
         text-align: left;
@@ -51,9 +51,12 @@ h1 {
 }
 
 a {
-    color: orange;
+    color: black;
 }
 
+.link-without-underline {
+    text-decoration: none;
+}
 
 time {
     color: black;
